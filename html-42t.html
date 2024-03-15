@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,td,th{
+            border:2px solid black;
+            border-collapse: collapse;
+        }
+        thead{
+            background-color: aqua;
+        }
+        tbody{
+            
+            background-color:rgb(107, 222, 107);  
+        } 
+        tfoot{
+            background-color: rgb(198, 143, 71);
+        }          
+        
+    </style>
+</head>
+<body>
+    <table>
+        <h1>table</h1>
+        <thead>
+    <tr>
+    <th>head1</th>
+    <th>head2</th>
+    <th>head3</th>
+    <th >head4</th>
+     <th>head5</th>
+    <th>head6</th>
+    </tr></thead>
+    <tbody>
+    <tr>
+        <td>naruto1</td>
+         <td>naruto</td>
+        <td>naruto3</td>
+        <td colspan="3"style="text-align: center";>naruto4</td>
+        <!-- <td>naruto5</td>
+        <td>naruto6</td> -->
+    </tr>
+    <tr>
+        <td>sasuke1</td>
+        <td rowspan="2" style="text-align: center;">sasuke2</td>
+        <td>sasuke3</td>
+        <td colspan="3"style="text-align: center";>sasuke4</td>
+        <!-- <td>sasuke5</td>
+        <td>sasuke6</td>  -->
+    </tr>
+    <tr>
+        <td>sakura1</td>
+        <!-- <td>sakura2</td> -->
+        <td>sakura3</td>
+        <!-- <td>sakura4</td>
+        <td>sakura5</td> -->
+       <td colspan="3"style="text-align: center">sakura6</td>
+    </tr></tbody>
+    <tfoot>
+    <tr>
+        <td>hinata1</td>
+        <td>hinata2</td>
+        <td>hinata3</td>
+        <td rowspan="2"style="text-align: centre">hinata4</td>
+     <td>hinata5</td> 
+        <td rowspan="2"style="text-align: centre">hinata6</td>  
+    </tr>
+    <tr>
+        <td>shikamaru1</td>
+        <td>shikamaru2</td>
+        <td>shikamaru3</td>
+        <!-- <td>shikamaru4</td> -->
+        <td>shikamaru5</td>
+        <!-- <td>shikamaru6</td> -->
+    </tr></tfoot>
+</table>
+
+    
+</body>
+</html>
